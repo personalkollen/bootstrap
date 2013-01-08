@@ -127,7 +127,6 @@
           this.options.placement
 
         $tip
-          .detach()
           .css({ top: 0, left: 0, display: 'block' })
 
         this.options.container ? $tip.appendTo(this.options.container) : $tip.insertAfter(this.$element)
